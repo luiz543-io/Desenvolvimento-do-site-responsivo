@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Localização - Market Fast Atacadista</title>
+  <link rel="stylesheet" href="css/estilo.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src="Icones/logo.png" alt="Logo SuperMercasf" width="40" /> SuperMercasf</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+        <li class="nav-item"><a class="nav-link" href="equipe.html">Equipe</a></li>
+        <li class="nav-item"><a class="nav-link active" href="mapa.html">Contato</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>  
+
+<!-- Mapa -->
+<iframe 
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1220.3603416832646!2d-47.8911102!3d-15.7942295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3aef3b43b111%3A0x74ec345f6dd79b28!2sAsa%20Sul%2C%20Bras%C3%ADlia%20-%20DF!5e0!3m2!1spt-BR!2sbr!4v1718041322134!5m2!1spt-BR!2sbr" 
+  width="100%" 
+  height="400" 
+  style="border:0;" 
+  allowfullscreen="" 
+  loading="lazy" 
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+<!-- Formulário de Contato -->
+<h1 class="display-4 container text-center mt-5 mb-4">Contato</h1>
+<div class="container mb-5">
+  <form class="row g-3 needs-validation" novalidate>
+    <div class="col-md-4">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email" placeholder="Digite seu email" required>
+      <div class="valid-feedback">Tudo certo!</div>
+    </div>
+    <div class="col-md-4">
+      <label for="senha" class="form-label">Senha</label>
+      <input type="password" class="form-control" id="senha" placeholder="Digite sua senha" required>
+      <div class="valid-feedback">Tudo certo!</div>
+    </div>
+    <div class="col-md-4">
+      <label for="usuario" class="form-label">Nome de usuário</label>
+      <div class="input-group has-validation">
+        <span class="input-group-text">@</span>
+        <input type="text" class="form-control" id="usuario" placeholder="Usuário" required>
+        <div class="invalid-feedback">Digite o nome de usuário</div>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="termos" required>
+        <label class="form-check-label" for="termos">Concordo com os termos e condições</label>
+        <div class="invalid-feedback">Você deve aceitar os termos antes de enviar.</div>
+      </div>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-primary" type="submit">Confirmar</button>
+    </div>
+  </form>
+</div>
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid container">
+    <a class="navbar-brand" href="index.html">
+      <img src="Icones/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+      Navegue aqui
+    </a>
+  </div>
+</nav>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
